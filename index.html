@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Fylo</title>
+  <link rel="stylesheet" href="css/main.min.css">
+</head>
+<body>
+
+  <h1 class="visually-hidden">Fylo</h1>
+
+  <header class="site-header">
+    <div class="container">
+
+      <nav class="sitenav">
+        <a href="index.html" class="site-logo">
+          <img class="site-logo__img" src="img/logo.svg" width="176" height="52" alt="Fylo - site logo">
+        </a>
+
+        <ul class="sitenav__list">
+          <li class="sitenav__item">
+            <a href="#" class="sitenav__link">Features</a>
+          </li>
+          <li class="sitenav__item">
+            <a href="#" class="sitenav__link">Team</a>
+          </li>
+          <li class="sitenav__item">
+            <a href="#contact" class="sitenav__link">Sign In</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main class="main">
+    <section class="intro">
+      <div class="container intro__container">
+        <img class="intro__img" src="img/intro-bg.png" width="720" height="534" srcset="img/intro-bg@2x.png" alt="intro section image">
+        <h2 class="intro__title">All your files in one secure location, accessible anywhere.</h2>
+        <p class="intro__text">Fylo stores all your most important files in one secure location. Access them wherever you need, share and collaborate with friends family, and co-workers.</p>
+        <a href="#" class="intro__link">Get Started</a>
+      </div>
+    </section>
+
+    <section class="about">
+      <h2 class="visually-hidden">About section</h2>
+      <div class="about__container">
+        <ul class="about__list">
+
+          <li class="about__item about-item about-item--access">
+            <h3 class="about-item__title">Access your files, anywhere</h3>
+            <p class="about-item__text">The ability to use a smartphone, tablet, or computer to access your account means your files follow you everywhere.</p>
+          </li>
+
+          <li class="about__item about-item about-item--security">
+            <h3 class="about-item__title">Security you can trust</h3>
+            <p class="about-item__text">2-factor authentication and user-controlled encryption are just a couple of the security features we allow to help secure your files.</p>
+          </li>
+
+          <li class="about__item about-item about-item--collaboration">
+            <h3 class="about-item__title">Real-time collaboration</h3>
+            <p class="about-item__text">Securely share files and folders with friends, family and colleagues for live collaboration. No email attachments required.</p>
+          </li>
+
+          <li class="about__item about-item about-item--store">
+            <h3 class="about-item__title">Store any type of file</h3>
+            <p class="about-item__text">Whether you're sharing holidays photos or work documents, Fylo has you covered allowing for all file types to be securely stored and shared.</p>
+          </li>
+
+        </ul>
+      </div>
+    </section>
+
+    <section class="demo">
+      <div class="container demo__container">
+        <img class="demo__img" src="img/demo-bg.png" width="614" height="463" srcset="img/demo-bg@2x.png" alt="demo section - image">
+        <div class="demo__right">
+          <h2 class="demo__title">Stay productive, wherever you are</h2>
+          <p class="demo__text">Never let location be an issue when accessing your files. Fylo has you covered for all of your file storage needs.</p>
+          <p class="demo__text">Securely share files and folders with friends, family and colleagues for live collaboration. No email attachments required.</p>
+          <a class="demo__link" href="#">See how Fylo works</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="blockquote">
+      <h2 class="visually-hidden">Blockquote section</h2>
+      <div class="container">
+        <ul class="blockquote__list">
+
+          <li class="blockquote__item">
+            <blockquote class="blockquote__blockquote-text">Fylo has improved our team productivity by an order of magnitude. Since making the switch our team has become a well-oiled collaboration machine.
+            </blockquote>
+            <div class="blockquote__user-info blockquote__user-info--satish">
+              <div>
+                <p class="blockquote__user-name">Satish Patel</p>
+                <p class="blockquote__user-profession">Founder & CEO, Huddle</p>
+              </div>
+            </div>
+          </li>
+
+          <li class="blockquote__item">
+            <blockquote class="blockquote__blockquote-text">Fylo has improved our team productivity by an order of magnitude. Since making the switch our team has become a well-oiled collaboration machine.
+            </blockquote>
+            <div class="blockquote__user-info blockquote__user-info--bruce">
+              <div>
+                <p class="blockquote__user-name">Bruce McKenzie</p>
+                <p class="blockquote__user-profession">Founder & CEO, Huddle</p>
+              </div>
+            </div>
+          </li>
+
+          <li class="blockquote__item">
+            <blockquote class="blockquote__blockquote-text">Fylo has improved our team productivity by an order of magnitude. Since making the switch our team has become a well-oiled collaboration machine.
+            </blockquote>
+            <div class="blockquote__user-info blockquote__user-info--iva">
+              <div>
+                <p class="blockquote__user-name">Iva Boyd</p>
+                <p class="blockquote__user-profession">Founder & CEO, Huddle</p>
+              </div>
+            </div>
+          </li>
+
+        </ul>
+      </div>
+    </section>
+
+    <section class="contact" id="contact">
+      <div class="contact__container">
+        <div class="contact__wrapper">
+          <h2 class="contact__title">Get early access today</h2>
+          <p class="contact__text">It only takes a minute to sign up and our free starter tier is extremely generous. If you have any questions, our support team would be happy to help you.</p>
+
+          <form class="contact-form" action="https://echo.htmlacademy.ru" method="post">
+            <input type="email" class="contact-form__input" name="email" placeholder="email@example.com" required pattern="^([a-z0-9_\.-]+)@([\da-z\.-]+)\.([a-z\.]{2,6})$">
+            <button class="contact-form__button" type="submit">Get Started For Free</button>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <section class="site-footer">
+      <div class="container">
+        <img class="footer__logo" src="img/logo.svg" width="176" height="52" alt="Site logo - Fylo">
+        <div class="footer__bottom">
+          <div class="footer__address">
+            <p class="footer__address-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
+          </div>
+          <div class="footer__phone">
+            <a class="footer__tel" href="tel:+998977690260">+1-543-123-4567</a>
+            <a class="footer__mail" href="mailto:sanjarabduxamidov1311@gmail.com">example@fylo.com</a>
+          </div>
+          <div class="footer__nav">
+            <ul class="footer__sitenav">
+              <li class="footer__sitenav-item">
+                <a href="#" class="footer__sitenav-link">About Us</a>
+              </li>
+
+              <li class="footer__sitenav-item">
+                <a href="#" class="footer__sitenav-link">Jobs</a>
+              </li>
+
+              <li class="footer__sitenav-item">
+                <a href="#" class="footer__sitenav-link">Press</a>
+              </li>
+
+              <li class="footer__sitenav-item">
+                <a href="#" class="footer__sitenav-link">Blog</a>
+              </li>
+            </ul>
+
+            <ul class="footer__sitenav">
+              <li class="footer__sitenav-item">
+                <a href="#" class="footer__sitenav-link">Contact Us</a>
+              </li>
+
+              <li class="footer__sitenav-item">
+                <a href="#" class="footer__sitenav-link">Terms</a>
+              </li>
+
+              <li class="footer__sitenav-item">
+                <a href="#" class="footer__sitenav-link">Privacy</a>
+              </li>
+
+            </ul>
+          </div>
+
+          <div class="footer__social-links">
+            <a class="footer__facebook-link" href="#" target="_blank">
+              <img class="footer__facebook-logo" src="img/facebook.svg" width="33" height="32" alt="facebook link">
+            </a>
+            <a class="footer__twitter-link" href="#" target="_blank">
+              <img class="footer__twitter-logo" src="img/twitter.svg" width="33" height="32" alt="twitter link">
+            </a>
+            <a class="footer__instagram-link" href="#" target="_blank">
+              <img class="footer__instagram-logo" src="img/instagram.svg" width="33" height="32" alt="instagram link">
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+
+  <script src="js/main.js"></script>
+</body>
+</html>
